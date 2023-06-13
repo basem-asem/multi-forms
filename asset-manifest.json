@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/multi-forms/static/css/main.dadd9a15.css",
+    "main.js": "/multi-forms/static/js/main.ca48c254.js",
+    "static/js/787.dd6993c4.chunk.js": "/multi-forms/static/js/787.dd6993c4.chunk.js",
+    "static/media/bg-sidebar-desktop.svg": "/multi-forms/static/media/bg-sidebar-desktop.6918153f38678372ceb14496fda9664c.svg",
+    "static/media/bg-sidebar-mobile.svg": "/multi-forms/static/media/bg-sidebar-mobile.ad41661b40ca0b967f3a9f96479b9c1a.svg",
+    "static/media/icon-advanced.svg": "/multi-forms/static/media/icon-advanced.705bd10c4c1f688871d729633f0ca4ae.svg",
+    "static/media/icon-thank-you.svg": "/multi-forms/static/media/icon-thank-you.ee753f231cc5a5789b8eb922a96472c0.svg",
+    "index.html": "/multi-forms/index.html",
+    "static/media/icon-pro.svg": "/multi-forms/static/media/icon-pro.2e7e377da9c658d608624304a0f8dae6.svg",
+    "static/media/icon-arcade.svg": "/multi-forms/static/media/icon-arcade.a08c098289a31bb2f66d675be71565b3.svg",
+    "main.dadd9a15.css.map": "/multi-forms/static/css/main.dadd9a15.css.map",
+    "main.ca48c254.js.map": "/multi-forms/static/js/main.ca48c254.js.map",
+    "787.dd6993c4.chunk.js.map": "/multi-forms/static/js/787.dd6993c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dadd9a15.css",
+    "static/js/main.ca48c254.js"
+  ]
+}
