@@ -1,0 +1,9 @@
+.image .active{
+    color: hsl(213, 96%, 18%);
+    background-color: hsl(206, 94%, 87%);
+}
+@media (max-width: 767px) {
+    .image .info{
+        display: none;
+    }
+}

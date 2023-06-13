@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ImageDesktop from './ImageDesktop';
+import Firstpage from './firstpage';
+import Secondpage from './secondpage';
+import Thirdpage from './Thirdpage';
+import Forthpage from './Forthpage';
+import Thanks from './Thanks';
 
 function App() {
+  const [selectedPath, setSelectedPath] = useState(true);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App md:bg-white flex justify-center md:m-5 md:p-3 rounded-lg md:flex-row flex-col">
+        <ImageDesktop />
+        <Routes>
+          <Route path="/" element={<Firstpage />} />
+          <Route path="/second" element={<Secondpage  setSelectedPath={setSelectedPath} selectedPath={selectedPath} />} />
+          <Route path="/third" element={<Thirdpage selectedPath={selectedPath} />} />
+          <Route path="/forth" element={<Forthpage selectedPath={selectedPath} />} />
+          <Route path="/thanks" element={<Thanks />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
