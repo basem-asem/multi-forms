@@ -10,7 +10,7 @@ import Thanks from './Thanks';
 function App() {
   const [selectedPath, setSelectedPath] = useState(true);
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App md:bg-white flex justify-center md:m-5 md:p-3 rounded-lg md:flex-row flex-col">
         <ImageDesktop />
         <Routes>
